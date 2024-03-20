@@ -5,16 +5,16 @@ export interface Coordinate {
 export interface Geotag {
   id: string;
   name: string;
-  place_type: string;
-  full_name: string;
+  placeType: string;
+  fullName: string;
   country: string;
   country_code: string;
   coordinates: Coordinate;
 }
 export interface Tweet {
   id: string;
-  user_id: string;
-  user_name: string;
+  userId: string;
+  userName: string;
   text: string;
   date: string;
   geo: Geotag;
@@ -24,8 +24,8 @@ export interface Vendor {
   name: string;
   image: string;
   description: string;
-  twitter_id: string;
-  tweets: string;
-  created: string;
-  updated: string;
+  twitterId: string;
+  tweets: Tweet[];
+  created: number;
+  updated: number;
 }
