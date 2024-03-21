@@ -1,4 +1,6 @@
-import { Vendor } from "../types/twitter.ts";
+// import { Vendor } from "../types/twitter";
+
+import { Vendor } from "../types/twitter";
 
 const vendors: Vendor[] = [
   {

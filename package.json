@@ -6,7 +6,7 @@
   "author": "AungMawMaw <aungmaw.bc@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node \"build/index.js"
+    "start": "node \"build/index.js\""
   }
   "dependencies": {
     "@aws-sdk/util-dynamodb": "^3.529.1",
